@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C12E5471A05CB550048AC38 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C12E5461A05CB550048AC38 /* CoreFoundation.framework */; };
+		1C1A53AE1A0075E6008FD1C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A53AD1A0075E6008FD1C3 /* main.m */; };
+		1C1A53B51A00761E008FD1C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1A53B41A00761E008FD1C3 /* Foundation.framework */; };
+		1C241C461A06064100E88883 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C241C451A06064100E88883 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C1A53A81A0075E6008FD1C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C12E5461A05CB550048AC38 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1C1A53AA1A0075E6008FD1C3 /* PadDataCrawler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PadDataCrawler; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1A53AD1A0075E6008FD1C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C1A53B41A00761E008FD1C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C241C451A06064100E88883 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1A53A71A0075E6008FD1C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C241C461A06064100E88883 /* libsqlite3.dylib in Frameworks */,
+				1C12E5471A05CB550048AC38 /* CoreFoundation.framework in Frameworks */,
+				1C1A53B51A00761E008FD1C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1A53A11A0075E6008FD1C3 = {
+			isa = PBXGroup;
+			children = (
+				1C241C451A06064100E88883 /* libsqlite3.dylib */,
+				1C12E5461A05CB550048AC38 /* CoreFoundation.framework */,
+				1C1A53B41A00761E008FD1C3 /* Foundation.framework */,
+				1C1A53AC1A0075E6008FD1C3 /* PadDataCrawler */,
+				1C1A53AB1A0075E6008FD1C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C1A53AB1A0075E6008FD1C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A53AA1A0075E6008FD1C3 /* PadDataCrawler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C1A53AC1A0075E6008FD1C3 /* PadDataCrawler */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A53AD1A0075E6008FD1C3 /* main.m */,
+			);
+			path = PadDataCrawler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C1A53A91A0075E6008FD1C3 /* PadDataCrawler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1A53B11A0075E6008FD1C3 /* Build configuration list for PBXNativeTarget "PadDataCrawler" */;
+			buildPhases = (
+				1C1A53A61A0075E6008FD1C3 /* Sources */,
+				1C1A53A71A0075E6008FD1C3 /* Frameworks */,
+				1C1A53A81A0075E6008FD1C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PadDataCrawler;
+			productName = PadDataCrawler;
+			productReference = 1C1A53AA1A0075E6008FD1C3 /* PadDataCrawler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C1A53A21A0075E6008FD1C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = darklinden;
+				TargetAttributes = {
+					1C1A53A91A0075E6008FD1C3 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1C1A53A51A0075E6008FD1C3 /* Build configuration list for PBXProject "PadDataCrawler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C1A53A11A0075E6008FD1C3;
+			productRefGroup = 1C1A53AB1A0075E6008FD1C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C1A53A91A0075E6008FD1C3 /* PadDataCrawler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C1A53A61A0075E6008FD1C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1A53AE1A0075E6008FD1C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C1A53AF1A0075E6008FD1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1C1A53B01A0075E6008FD1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1C1A53B21A0075E6008FD1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C1A53B31A0075E6008FD1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C1A53A51A0075E6008FD1C3 /* Build configuration list for PBXProject "PadDataCrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1A53AF1A0075E6008FD1C3 /* Debug */,
+				1C1A53B01A0075E6008FD1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C1A53B11A0075E6008FD1C3 /* Build configuration list for PBXNativeTarget "PadDataCrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1A53B21A0075E6008FD1C3 /* Debug */,
+				1C1A53B31A0075E6008FD1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C1A53A21A0075E6008FD1C3 /* Project object */;
+}
