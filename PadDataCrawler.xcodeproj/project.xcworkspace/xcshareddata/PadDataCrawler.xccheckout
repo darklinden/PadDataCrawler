@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B236A173-C54B-41BB-A2A4-C64A3279167F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PadDataCrawler</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FB551FF1778770B8C82BE61F98E4FF17CD983C7B</key>
+		<string>https://github.com/darklinden/PadDataCrawler.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PadDataCrawler.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FB551FF1778770B8C82BE61F98E4FF17CD983C7B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/darklinden/PadDataCrawler.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FB551FF1778770B8C82BE61F98E4FF17CD983C7B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FB551FF1778770B8C82BE61F98E4FF17CD983C7B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PadDataCrawler</string>
+		</dict>
+	</array>
+</dict>
+</plist>
